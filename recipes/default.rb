@@ -11,13 +11,13 @@
 
 foobar = node[:chef_pry_demo][:foobar]
 
-require 'pry' ; binding.pry
-
 ruby_block "basic ruby_block" do
   block do
     require 'pry'; binding.pry
   end
 end
+
+require 'pry' ; binding.pry
 
 template '/tmp/foobar' do
   source "foobar.erb"
