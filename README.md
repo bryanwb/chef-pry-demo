@@ -38,6 +38,9 @@ Type `whereami`, notice that there is a ruby_block above you with an embedded br
 for greater context. The ruby breakpoint you are at is processed before the individual resources. This is because
 it is still compile time.
 
+Type `continue` once more and you will be inside the ruby_block resource. Type `continue` again and you will be 
+inside the eRubis template.
+
 # Author
 
 Author:: Bryan W. Berry (<bryan.berry@gmail.com>)
